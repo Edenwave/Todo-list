@@ -1,20 +1,20 @@
 .App {
-  display: flex;
   align-items: center;
-  height: 90vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background-color: #f0f5af;
+  overflow: scroll;
 }
 
 .App_todo {
-  height: 50rem;
-  width: 50rem;
+  height: 100%;
+  width: 100%;
 }
 
 .App_input_wrapper{
   display: flex;
   align-items: center;
-  width: 200%;
+  width: 100%;
   height: 3.5rem;
   background-color: #a38b1f;
   border-radius: 10px;
@@ -22,7 +22,6 @@
 }
 
 .App_input {
-  flex: 1;
   text-align: center;
   outline: none;
   border: none;
@@ -31,10 +30,12 @@
   color: white;
   padding-top: 15px;
   padding-bottom: 15px;
+  width: 100%;
+  height: 100%;
 }
 
 .App_input_button{
-  width: 3rem;
+  width: 5%;
   height: 150%;
   background-color: #534f0c;
   display: flex;
@@ -47,17 +48,16 @@
 
 .App_todo_list{
   background-color: #3a3723;
-  height: 100%;
-  width: 200%;
-  margin-top: 1rem;
-  overflow: auto;
+  width: 100%;
+  margin-top: 1%;
+  overflow: scroll;
   border-radius: 20px;
-
+  flex: 1;
 }
 
 .empty{
   color: white;
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 0.2rem;
   font-size: 1.5rem;
 }
