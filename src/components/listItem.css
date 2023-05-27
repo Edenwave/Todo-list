@@ -1,0 +1,50 @@
+.todo{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+
+.todo_circle, .todo_circle_unchecked{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background-color: #010a1d;
+    border: 3px solid #c5b559;
+    cursor: pointer;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+}
+
+.todo_text, .todo_text_checked {
+    color: rgb(255, 255, 255);
+    flex: 1;
+    border: 3px solid #ccc458;
+    border-radius: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-top: 15px;
+    font-size:x-large
+}
+
+.todo_delete{
+    cursor: pointer;
+    color: #d9ff00;
+    height: 63px;
+    font-size: 60px;
+}
+
+.todo_circle_unchecked{
+    background-color: transparent;
+}
+
+.todo_text_checked{
+    text-decoration: line-through;
+    color: #eeff00;
+}
